@@ -19,6 +19,8 @@ export default function App() {
         desc={project.desc}
         type={project.type}
         title={project.title}
+        gitlink={project.gitlink}
+        link={project.link}
       />
     )
   })

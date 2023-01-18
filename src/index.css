@@ -24,7 +24,7 @@ body {
   padding: 0;
   font-family: 'Biotif', sans-serif;
   background-color: #111;
-  color: #fff;
+  color: #d1d1cc;
   transition: 1s;
 }
 
@@ -64,6 +64,9 @@ header {
   list-style: none;
   margin: 2em;
 }
+.nav-links ul li :hover {
+  text-decoration: underline 2px pink;
+}
 
 .ext-links ul {
   display: flex;
@@ -91,6 +94,10 @@ ion-icon {
   scale: 1.5;
 }
 
+ion-icon:hover{
+  filter: invert(1);
+}
+
 /* ----- PRESENTATION ----- */
 
 .presentation {
@@ -105,10 +112,9 @@ ion-icon {
 .presentation-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 50%;
-  transform: translateY(-30%);
 }
 
 .presentation-text h1 {
@@ -118,12 +124,10 @@ ion-icon {
     letter-spacing: -1.5px;
     line-height: 110%;
     font-weight: 400;
-    margin: 0;
     margin-bottom: 10px;
     background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 4em ;
 }
 
 .presentation-text h1 span {
@@ -146,8 +150,8 @@ ion-icon {
 }
 
 .animation {
-  width: 555px;
-  height:  555px;
+  width: 30%;
+  height:  50%;
   background: #191919;
   box-shadow: 10px 10px 40px black;
   border-radius: 50px;
@@ -178,6 +182,7 @@ ion-icon {
   position: relative;
   opacity: 1;
   z-index: 1;
+  width: 100%;
   transform: translateY(-16%);
 }
 
@@ -186,6 +191,7 @@ ion-icon {
   position: absolute;
   left: 0;
   opacity: 1;
+  width: 200%;
   transition: 1s;
 }
 
@@ -199,6 +205,7 @@ ion-icon {
   box-shadow: 10px 10px 60px black;
   transform: translateY(-2%);
 }
+
 
 
 /* ----- PROJETS ----- */
@@ -231,7 +238,7 @@ ion-icon {
 
 .project-desc{
   position: absolute;
-  width: 30%;
+  width: 40%;
   font-size: 30px;
   line-height: 120%;
   transition: 1.3s;
@@ -255,6 +262,10 @@ ion-icon {
   position: absolute;
   top: 5rem;
   right: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .project-type {
@@ -275,6 +286,20 @@ ion-icon {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.project-git {
+  scale: 1.2;
+  position: relative;
+  top: 20px;
+}
+
+.project-link {
+  scale: 1.2;
+  position: relative;
+  top: 40px;
+}
+
+
 
 /* ----- Footer ----- */
 
@@ -410,8 +435,9 @@ ion-icon {
   height: 800px;
   background: #191919;
   border-radius: 20px;
-  padding: 50px;
+  padding: 0 40px;
   position: relative;
+  overflow: hidden;
   box-shadow: inset 5px 5px 30px 3px rgba(0, 0, 0, 0.7);
 }
 
@@ -420,7 +446,7 @@ ion-icon {
   background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 3rem;
+    margin: 1rem 1rem;
     animation: float 2s ease-in-out infinite; 
 }
 
@@ -477,9 +503,6 @@ ion-icon {
   font-size: 18px;
 }
 
-.openclassrooms:hover {
-  filter: brightness(100);
-}
 
 .hobbies {
   display: flex;
@@ -509,7 +532,7 @@ ion-icon {
   font-size: 20px;
   margin-bottom: 1em;
   width: 80%;
-  text-shadow: 5px 5px 30px black;
+
 }
 
 .hobbies-text {
@@ -519,6 +542,7 @@ ion-icon {
 .spotify {
   margin: auto;
   width: 50%  ;
+  text-shadow: 5px 5px 30px black;
 }
 
 .hobbies h4 {
@@ -526,4 +550,273 @@ ion-icon {
   color: #1ED760;
   text-align: center;
   text-shadow: 5px 5px 10px black;
+}
+
+
+/* ---- MEDIA QUERIES ---- */
+
+@media screen and (max-width: 1290px) {
+  .logo {
+    display: none;
+  }
+  
+  .presentation {
+    flex-direction: column;
+  }
+
+  .animation {
+    display: none;
+  }
+  
+  .presentation-text {
+    width: 100%;
+  }
+  .presentation-text h1, p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .project img {
+    scale:1.2;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    margin: 4rem auto;
+    width: 90%;
+    height: 800px;
+  }
+  
+  .about-pic {
+    display: none;
+  }  
+  
+  .about-me {
+    width: 100%;
+  }
+  
+  .about-me h2 {
+    width: 90%;
+    text-align: center;
+  }
+  
+  .about-me p {
+    width: 60%;
+  }
+  
+/*-------------------*/
+
+.studies {
+  padding: 0 50px;
+}
+
+.studies h3 {
+  font-size: 23px;
+  margin-top: 3em;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: float 2s ease-in-out infinite; 
+}
+
+.studies-parts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.studies-parts li, h4 {
+    margin-bottom: 1em;
+}
+
+.studies-parts h4 {
+  font-size: 18px;
+}
+
+.learn {
+  display: flex;
+  width: 100%;
+  border: none;
+}
+.school-info{
+  display: flex;
+  width: 100%;
+  border: none;
+}
+.hard-skills{
+  display: flex;
+  width: 100%;
+  border: none;
+}
+.soft-skills{
+  display: flex;
+  width: 100%;
+  border: none;
+  margin-bottom: 4em;
+}
+
+.hard-skills ul {
+  display: flex;
+  list-style: none;
+}
+
+.hard-skills ul li {
+  margin: 1em;
+}
+
+.soft-skills ul {
+  display: flex;
+  list-style: none;
+}
+
+.soft-skills ul li {
+  margin: 1em;
+}
+
+.learn ul {
+  display: flex;
+  list-style: none;
+}
+
+.learn ul li {
+  margin: 1em;
+  text-align: center;
+  width: 70%;
+}
+.school-info ul {
+  display: flex;
+  list-style: none;
+}
+
+.school-info ul li {
+  margin: 1em;
+  text-align: center;
+}
+
+
+
+}
+
+
+/* --- SMARTPHONES --- */
+
+@media screen and (max-width: 720px) {
+
+ 
+  .nav-links {
+    font-size: 17px;
+    margin-right: 2em;
+  }
+
+  .nav-links ul li {
+    margin: 5px;
+  }
+
+  .ext-links ul li {
+    margin: 8px;
+  }
+
+  ion-icon {
+    scale: 1.2;
+  }
+
+  .header-box {
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .logo {
+    display: none;
+  }
+  
+  .presentation {
+    flex-direction: column;
+  }
+
+  .animation {
+    display: none;
+  }
+  
+  .presentation-text {
+    width: 100%;
+  }
+
+  .presentation-text h1 {
+    font-size: 50px;
+  }
+  .presentation-text h1, p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .project img {
+    scale:2;
+  }
+
+  .project:hover img {
+    transform: translateX(200%);
+    scale: 0.4;
+  }
+
+  .project {
+    width: 90%;
+    height: 400px;
+    position: relative;
+  }
+
+  .project-desc {
+    font-size: 19px;
+    width: 50%;
+    line-height: 120%;
+    scale: 0.5;
+    position: absolute;
+    left: -40px;
+
+  }
+
+  .project-info {
+    align-items: flex-start;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0;
+    transition: 1s;
+  }
+
+  .project:hover .project-info{
+    opacity: 1;
+  }
+
+  .footer {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+  }
+  
+  .footer h5 {
+      font-size: 40px;
+      width: 90%;
+  }
+  
+  .footer-email {
+      width: 80%;
+  }
+  
+  .footer h6 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+
+  .learning {
+    font-size: 20px;
+  }
+
 }

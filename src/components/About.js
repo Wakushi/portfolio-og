@@ -1,7 +1,5 @@
 import React from "react";
-import makushiPiano from "../assets/makushi-piano.jpg"
 import makushiPro from "../assets/makushi-pro.jpg"
-import oc from "../assets/openclassrooms.png"
 
 export default function About() {
 
