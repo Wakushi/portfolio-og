@@ -42,7 +42,7 @@ export default [
         desc:"I learned to do a clone of the AirBnb Experiences, and therefore how to correctly iterate over data to create experiences cards components. ",
         type:"Web App",
         title:"AirBnb clone",
-        gitlink:"https://github.com/Wakushi/notes-app",
+        gitlink:"none",
         link:"none"
     }
 ]
