@@ -875,13 +875,20 @@ ion-icon:hover{
   }
 
   .project-desc {
-    font-size: 19px;
-    width: 50%;
+    font-size: 14px;
+    width: 40%;
     line-height: 120%;
     scale: 0.5;
     position: absolute;
-    left: -40px;
+    left: 0px;
+  }
 
+  .project-type {
+    font-size: 15px;
+  }
+
+  .project-title {
+    font-size: 20px;
   }
 
   .project-info {
@@ -924,6 +931,7 @@ ion-icon:hover{
 
   .learning {
     font-size: 20px;
+    text-align: center;
   }
 
   iframe {
