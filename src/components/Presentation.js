@@ -11,7 +11,7 @@ export default function Presentation(){
 
             <div className="presentation-text">
                 <h1>Hi ! I’m Maxime. <span>A Web Developer.</span></h1>
-                <p>I’m a web development student spending every day learning, with a creative mind and always passionate for the projects I'm involved in.</p>
+                <p>I’m a student in web development spending every day learning and experimenting. I have a creative mind and I'm always passionate for the projects I'm involved in.</p>
                 <h4 className="learning">I'm currently learning : <span>React</span></h4>
             </div>
             

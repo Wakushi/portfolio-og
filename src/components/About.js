@@ -1,5 +1,6 @@
 import React from "react";
 import makushiPro from "../assets/makushi-pro.jpg"
+import cdMakushi from "../assets/cd-makushi.png" 
 
 export default function About() {
 
@@ -16,10 +17,10 @@ export default function About() {
                 </div>
 
                 <div className="about-me">
-                    <h2>I'm Maxime, a french student in Web Development learning from Openclassrooms, Scrimba and pretty much the whole internet.</h2>
+                    <h2>I'm Maxime, a French student in Web Development learning from Openclassrooms, Scrimba and pretty much the whole internet.</h2>
                     <p>A few month ago I decided to start learning HTML, CSS and JavaScript and I discovered a real passion in web development on my journey.</p>
                     <p>I have a really creative mind and I find happiness in creation, whether it's coding a web app or doing music production.</p>
-                    <p>Currently I spend my time learning new features, new tools and new langagues to become a great web developer, and I love it !</p>
+                    <p>Currently, I'm spending my time learning new features, new tools and new languages to become a great web developer, and I love it !</p>
                 </div>
 
             </div>
@@ -30,20 +31,20 @@ export default function About() {
                     <div className="learn">
                         <h4>What I'll learn</h4>
                         <ul>
-                            <li>Build a dynamic and responsive web site (HTML, CSS, JavaScript and React)</li>
-                            <li>Create API and databases to develop complete and dynamic web sites while handling its operation server side (NodeJS, Express, MongoDB)</li>
-                            <li>Optimize performances and handling existing web sites maintenance to allow optimal operation and a great visibility on search engines (SEO)</li>
-                            <li>Managing a project from A to Z : from planification to the presentation of the solution to the client including technical specifications writing.</li>
+                            <li>Build a <strong>dynamic</strong> and <strong>responsive</strong> web site (HTML, CSS, JavaScript and React)</li>
+                            <li>Create <strong>API</strong> and <strong>databases</strong> to develop complete and dynamic web sites while handling its operation <strong>server side</strong> (NodeJS, Express, MongoDB)</li>
+                            <li>Optimize <strong>performances</strong> and handling existing web sites <strong>maintenance</strong> to allow optimal operation and a great <strong>visibility</strong> on search engines <strong>(SEO)</strong></li>
+                            <li><strong>Managing</strong> a project from A to Z : from planification to the presentation of the solution to the client including <strong>technical specifications</strong> writing.</li>
                         </ul>
                     </div>
                     <div className="school-info">
                         <h4>Details</h4>
                         <ul>
-                            <li>I'm eligible to the state's bonus ( 6000€ to the company )</li>
-                            <li>I can start at any time of the year</li>
-                            <li>The rythm can be adapted to suit the company restrictions</li>
-                            <li>I'm preparing a diploma which is certified to the RNCP</li>
-                            <li>Openclassrooms works with all OPCA and OPCO</li>
+                            <li>I'm eligible to the state's bonus ( <strong>6000€</strong> to the company )</li>
+                            <li>I will start the <strong>school training</strong> as soon as I <strong>find a company</strong></li>
+                            <li>The <strong>rythm</strong> can be <strong>adapted</strong> to suit the company restrictions</li>
+                            <li>I'm preparing a diploma which is certified to the <strong>RNCP</strong></li>
+                            <li><strong>Openclassrooms</strong> works with all <strong>OPCA</strong> and <strong></strong>OPCO</li>
                         </ul>
                     </div>
                     <div className="hard-skills">
@@ -80,6 +81,7 @@ export default function About() {
                 <div className="spotify">
                     <h4>I'm now on Spotify !</h4>
                     <iframe style={styles} src="https://open.spotify.com/embed/artist/3UpfeEs7V3bmv55WYtJnLf?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <a target="_blank" href="https://open.spotify.com/artist/3UpfeEs7V3bmv55WYtJnLf?si=ZgHqX-tnR5aBvcZJ7Qmhew"><img className="cd-makushi" src={cdMakushi} alt="cd" width="200px"></img></a>
                 </div>
             </div>
 

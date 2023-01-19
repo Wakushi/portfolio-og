@@ -46,7 +46,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: 60px;
   background-color: #111;
   position: fixed;
@@ -322,7 +322,7 @@ ion-icon:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    width: 40%;
+    width: 50%;
     font-weight: 400;
 }
 
@@ -380,10 +380,10 @@ ion-icon:hover{
 
 .about {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin: 4rem auto;
-  width: 53%;
+  width: 70%;
   height: 800px;
 }
 
@@ -432,10 +432,9 @@ ion-icon:hover{
   flex-direction: column;
   margin: 4rem auto;
   width: 80%;
-  height: 800px;
   background: #191919;
   border-radius: 20px;
-  padding: 0 40px;
+  padding: 25px 40px;
   position: relative;
   overflow: hidden;
   box-shadow: inset 5px 5px 30px 3px rgba(0, 0, 0, 0.7);
@@ -446,7 +445,9 @@ ion-icon:hover{
   background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 1rem 1rem;
+    margin: 3rem 1rem;
+    text-align: center;
+    width: 80%;
     animation: float 2s ease-in-out infinite; 
 }
 
@@ -470,29 +471,32 @@ ion-icon:hover{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-right: 1px white solid;
-  width: 20%;
+  border-right: 1px rgba(255, 255, 255, 0.233) solid;
+  width: 30%;
   padding: 15px;
 }
+
 .school-info {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-right: 1px white solid;
-  width: 20%;
+  border-right: 1px rgba(255, 255, 255, 0.233) solid;
+  width: 30%;
   padding: 15px;
 }
+
 .hard-skills {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-right: 1px white solid;
+  border-right: 1px rgba(255, 255, 255, 0.233) solid;
   width: 20%;
   padding: 15px;
   font-size: 18px;
 }
+
 .soft-skills {
   display: flex;
   justify-content: center;
@@ -503,6 +507,54 @@ ion-icon:hover{
   font-size: 18px;
 }
 
+.hard-skills ul li {
+  margin: 1em;
+  padding: 10px 10px;
+  background-color:#111;
+  border-radius: 20px;
+  font-weight: 700;
+  text-align: center;
+  list-style: none;
+}
+
+
+.soft-skills ul li {
+  margin: 1em;
+  padding: 10px 10px;
+  background-color:#111;
+  border-radius: 20px;
+  font-weight: 700;
+  text-align: center;
+  list-style: none;
+}
+
+
+.learn ul li {
+  text-align: center;
+  width: 80%;
+  list-style: none;
+}
+
+.learn ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.school-info ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.school-info ul li {
+  text-align: center;
+  list-style: none;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
 
 .hobbies {
   display: flex;
@@ -510,10 +562,9 @@ ion-icon:hover{
   justify-content: space-around;
   margin: 4rem auto;
   width: 80%;
-  height: 800px;
   background: #191919;
   border-radius: 20px;
-  padding: 80px;
+  padding: 40px 80px;
   position: relative;
   box-shadow: inset 5px 5px 30px 3px rgba(0, 0, 0, 0.7);
 }
@@ -539,10 +590,15 @@ ion-icon:hover{
   width: 60%;
 }
 
+
 .spotify {
   margin: auto;
-  width: 50%  ;
+  width: 60%  ;
   text-shadow: 5px 5px 30px black;
+}
+
+.spotify h4 {
+  width: 100%;
 }
 
 .hobbies h4 {
@@ -550,6 +606,44 @@ ion-icon:hover{
   color: #1ED760;
   text-align: center;
   text-shadow: 5px 5px 10px black;
+}
+
+.cd-makushi {
+  display: none;
+}
+
+/* --- WIP --- */
+
+.wip-project {
+ margin-top: 5em;
+}
+
+.wip-main {
+  margin: auto;;
+  width: 80%;
+  padding: 1em;
+  background-color: #191919;
+  border-radius: 0 0 50px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 50px black;
+}
+
+.wip-main h1 {
+  font-family: Bogart;
+  color: rgb(247, 210, 48);
+  margin-top: 3em;
+  font-size: 40px;
+  width: 80%;
+  text-align: center;
+}
+
+.wip-main h3 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 4em;
 }
 
 
@@ -604,6 +698,10 @@ ion-icon:hover{
   .about-me p {
     width: 60%;
   }
+
+  .spotify {
+    margin-bottom: 2em;
+  }
   
 /*-------------------*/
 
@@ -612,7 +710,7 @@ ion-icon:hover{
 }
 
 .studies h3 {
-  font-size: 23px;
+  font-size: 28px;
   margin-top: 3em;
   background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
     -webkit-background-clip: text;
@@ -665,6 +763,9 @@ ion-icon:hover{
 
 .hard-skills ul li {
   margin: 1em;
+  padding: 10px 10px;
+  background-color:#111;
+  border-radius: 20px;
 }
 
 .soft-skills ul {
@@ -674,6 +775,9 @@ ion-icon:hover{
 
 .soft-skills ul li {
   margin: 1em;
+  padding: 10px 10px;
+  background-color:#111;
+  border-radius: 20px;
 }
 
 .learn ul {
@@ -707,7 +811,7 @@ ion-icon:hover{
 
  
   .nav-links {
-    font-size: 17px;
+    font-size: 12px;
     margin-right: 2em;
   }
 
@@ -720,13 +824,16 @@ ion-icon:hover{
   }
 
   ion-icon {
-    scale: 1.2;
+    scale: 1.1;
   }
 
   .header-box {
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
+    padding: 0 1em;
   }
+
+
 
   .logo {
     display: none;
@@ -797,7 +904,7 @@ ion-icon:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 12rem;
   }
   
   .footer h5 {
@@ -819,4 +926,99 @@ ion-icon:hover{
     font-size: 20px;
   }
 
+  iframe {
+    display: none;
+  }
+
+  .cd-makushi {
+    margin: auto;
+    display: block;
+    margin-bottom: 4em;
+    animation: spin linear 2s infinite; 
+    transition: 1s;
+  }
+
+  .cd-makushi:hover {
+    filter: invert(1)
+  }
+
+}
+
+@media screen and (max-width: 1105px) {
+
+  .about-me h2 {
+    font-size: 25px;
+  }
+
+  .about-me p {
+    font-size: 15px;
+  }
+
+
+  .studies h3 {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .studies {
+    padding: 0;
+  }
+
+  .studies {
+    font-size: 15px;
+  }
+  
+
+  .learn ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+  .school-info ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+  .hard-skills ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    }
+
+  .soft-skills ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    }
+
+    .hobbies  {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      width: 90%;
+    }
+
+    .hobbies-text h3 {
+      margin-top: 2em;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .hobbies-text p {
+      width: 100%;
+      font-size: 15px;
+      margin-bottom: 2em;
+    }
+
+
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }

@@ -8,7 +8,7 @@ export default function Header() {
                 <nav className="nav-links">
                     <ul>
                         <li><a href="/">Projects</a></li>
-                        <li><a href="#">Wip</a></li>
+                        <li><a href="/wip">Wip</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="mailto:maxime.eliazord@gmail.com">Contact</a></li>
                     </ul>
