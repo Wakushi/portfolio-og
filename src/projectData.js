@@ -3,6 +3,7 @@ import travel from "./assets/travel-journal.png"
 import meme from "./assets/meme.png"
 import airbnb from "./assets/airbnb.png"
 import tenzies from "./assets/tenzies.png"
+import weabove from "./assets/weabove.png"
 
 export default [
     {
@@ -20,6 +21,14 @@ export default [
         title:"Tenzies",
         gitlink:"https://github.com/Wakushi/tenzies",
         link:"https://tenzies-henna.vercel.app/"
+    },
+    {
+        img:weabove,
+        desc:"This is an app that calls to a blockchain API and calculates staking rewards for the Web3 project 'WeAbove'",
+        type:"Web3 App",
+        title:"$GRV Calculator",
+        gitlink:"https://github.com/Wakushi/weabove-gravite-calculator",
+        link:"https://weabove-gravite-calculator.vercel.app/"
     },
     {
         img:travel,
