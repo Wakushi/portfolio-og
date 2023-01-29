@@ -65,7 +65,7 @@ header {
   margin: 2em;
 }
 .nav-links ul li :hover {
-  text-decoration: underline 2px pink;
+  text-decoration: underline wavy 2px pink;
 }
 
 .ext-links ul {
