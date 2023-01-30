@@ -191,7 +191,7 @@ ion-icon:hover{
   position: absolute;
   left: 0;
   opacity: 1;
-  width: 200%;
+  width: 100%;
   transition: 1s;
 }
 

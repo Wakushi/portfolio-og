@@ -1,6 +1,7 @@
 import React from "react";
 import photoA from "../assets/diapo-a.png"
 import photoB from "../assets/diapo-b.png"
+import photoC from "../assets/diapo-c.png"
 
 
 export default function Presentation(){
@@ -18,7 +19,7 @@ export default function Presentation(){
             <div className="presentation-animation">
                 <div className="animation">
                    <img className="photo-a" src={photoA} width="100%"></img>
-                   <img className="photo-b" src={photoB} width="200%"></img>
+                   <img className="photo-b" src={photoC} width="100%"></img>
                 </div>
             </div>
 
