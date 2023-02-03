@@ -5,6 +5,7 @@ import airbnb from "./assets/airbnb.png"
 import tenzies from "./assets/tenzies.png"
 import weabove from "./assets/weabove.png"
 import floe from "./assets/floe.png"
+import colors from "./assets/colors.png"
 
 export default [
     {
@@ -40,19 +41,27 @@ export default [
         link:"https://floe-eta.vercel.app/"
     },
     {
-        img:airbnb,
-        desc:"I learned to do a clone of the AirBnb Experiences, and therefore how to correctly iterate over data to create experiences cards components. ",
-        type:"Web App",
-        title:"AirBnb clone",
-        gitlink:"none",
-        link:"none"
-    },
-    {
         img:notes,
         desc:"This is a classic notes app that I made using React. I was able to learn this through a Scrimba React course. It was a lot of fun to do !",
         type:"Web App",
         title:"Notes App",
         gitlink:"https://github.com/Wakushi/notes-app",
+        link:"none"
+    },
+    {
+        img:colors,
+        desc:"This is a simple color scheme generator I made using React. It calls to 'The Color API' with the user's settings.",
+        type:"Web App",
+        title:"Color Scheme App",
+        gitlink:"https://github.com/Wakushi/color-scheme-generator",
+        link:"https://color-scheme-generator-xi.vercel.app/"
+    },
+    {
+        img:airbnb,
+        desc:"I learned to do a clone of the AirBnb Experiences, and therefore how to correctly iterate over data to create experiences cards components. ",
+        type:"Web App",
+        title:"AirBnb clone",
+        gitlink:"none",
         link:"none"
     },
     {
