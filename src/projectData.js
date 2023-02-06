@@ -6,6 +6,7 @@ import tenzies from "./assets/tenzies.png"
 import weabove from "./assets/weabove.png"
 import floe from "./assets/floe.png"
 import colors from "./assets/colors.png"
+import trivia from "./assets/trivia.png"
 
 export default [
     {
@@ -15,6 +16,30 @@ export default [
         title:"$GRV Calculator",
         gitlink:"https://github.com/Wakushi/weabove-gravite-calculator",
         link:"https://weabove-gravite-calculator.vercel.app/"
+    },
+    {
+        img:trivia,
+        desc:"This project was made on my own as a React solo project suggested by Scrimba.com. This is a simple trivia app that calls 5 random questions from the OpenTDB API.",
+        type:"Web App",
+        title:"Trivia App",
+        gitlink:"https://github.com/Wakushi/Random-trivia-app",
+        link:"https://random-trivia-app.vercel.app/"
+    },
+    {
+        img:floe,
+        desc:"I learned to do a twitter clone using HTML and JS, and therefore I made the project from scratch using React to train myself",
+        type:"Web App",
+        title:"Twitter clone",
+        gitlink:"https://github.com/Wakushi/floe",
+        link:"https://floe-eta.vercel.app/"
+    },
+    {
+        img:colors,
+        desc:"This is a simple color scheme generator I made using React. It calls to 'The Color API' with the user's settings.",
+        type:"Web App",
+        title:"Color Scheme App",
+        gitlink:"https://github.com/Wakushi/color-scheme-generator",
+        link:"https://color-scheme-generator-xi.vercel.app/"
     },
     {
         img:tenzies,
@@ -33,28 +58,12 @@ export default [
         link:"https://meme-generator-wheat-xi.vercel.app/"
     },
     {
-        img:floe,
-        desc:"I learned to do a twitter clone using HTML and JS, and therefore I made the project from scratch using React to train myself",
-        type:"Web App",
-        title:"Twitter clone",
-        gitlink:"https://github.com/Wakushi/floe",
-        link:"https://floe-eta.vercel.app/"
-    },
-    {
         img:notes,
         desc:"This is a classic notes app that I made using React. I was able to learn this through a Scrimba React course. It was a lot of fun to do !",
         type:"Web App",
         title:"Notes App",
         gitlink:"https://github.com/Wakushi/notes-app",
         link:"none"
-    },
-    {
-        img:colors,
-        desc:"This is a simple color scheme generator I made using React. It calls to 'The Color API' with the user's settings.",
-        type:"Web App",
-        title:"Color Scheme App",
-        gitlink:"https://github.com/Wakushi/color-scheme-generator",
-        link:"https://color-scheme-generator-xi.vercel.app/"
     },
     {
         img:airbnb,

@@ -17,10 +17,7 @@ export default function Presentation(){
             </div>
             
             <div className="presentation-animation">
-                <div className="animation">
-                   <img className="photo-a" src={photoA} width="100%"></img>
-                   <img className="photo-b" src={photoC} width="100%"></img>
-                </div>
+                <div className="animation"></div>
             </div>
 
         </div>

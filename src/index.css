@@ -12,16 +12,14 @@
   ;
 }
 
-* {
-  box-sizing: border-box;
+*, body {
+  
   margin: 0;
   padding: 0;
   user-select: none;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Biotif', sans-serif;
   background-color: #111;
   color: #d1d1cc;
@@ -35,18 +33,17 @@ a {
 
 /* ----- HEADER -----*/
 
-header {
-  width: 100%;
+header, .header-box {
   display: flex;
-  justify-content: center;
   align-items: center;
+  width: 100%;
+}
+header {
+  justify-content: center;
 }
 
 .header-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
+  justify-content: space-around; 
   height: 60px;
   background-color: #111;
   position: fixed;
@@ -65,7 +62,7 @@ header {
   margin: 2em;
 }
 .nav-links ul li :hover {
-  text-decoration: underline wavy 2px pink;
+  text-decoration: underline solid 2px pink;
 }
 
 .ext-links ul {
@@ -152,12 +149,14 @@ ion-icon:hover{
 .animation {
   width: 30%;
   height:  50%;
-  background: #191919;
+  background: url('./assets/diapo-c.png');
   box-shadow: 10px 10px 40px black;
   border-radius: 50px;
   overflow: hidden;
   position: absolute;
   transition: 1s;
+
+  background-size: cover;
 }
 
 
