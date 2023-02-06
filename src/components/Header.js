@@ -4,7 +4,7 @@ import logo from "../assets/logo.png"
 export default function Header() {
     return(
         <header>
-            <div className="header-box">
+          
                 <nav className="nav-links">
                     <ul>
                         <li><a href="/">Projects</a></li>
@@ -25,7 +25,7 @@ export default function Header() {
                         <li><a target="_blank" href="https://open.spotify.com/artist/3UpfeEs7V3bmv55WYtJnLf?si=ZgHqX-tnR5aBvcZJ7Qmhew"><ion-icon name="musical-notes-outline"></ion-icon></a></li>
                     </ul>
                 </nav>
-            </div>
+       
         </header>
     )
 }

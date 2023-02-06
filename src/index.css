@@ -21,9 +21,13 @@
 
 body {
   font-family: 'Biotif', sans-serif;
-  background-color: #111;
   color: #d1d1cc;
   transition: 1s;
+}
+
+body,
+header {
+  background-color: #111;
 }
 
 a {
@@ -38,42 +42,34 @@ header, .header-box {
   align-items: center;
   width: 100%;
 }
-header {
-  justify-content: center;
-}
 
-.header-box {
+header {
   justify-content: space-around; 
   height: 60px;
-  background-color: #111;
   position: fixed;
   top: 0;
   z-index: 999;
 }
 
+.ext-links ul,
 .nav-links ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.ext-links ul li,
 .nav-links ul li {
   list-style: none;
+}
+
+.ext-links ul li,
+.nav-links ul li {
   margin: 2em;
 }
+
 .nav-links ul li :hover {
   text-decoration: underline solid 2px pink;
-}
-
-.ext-links ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.ext-links ul li {
-  list-style: none;
-  margin: 2em;
 }
 
 .logo {
@@ -97,20 +93,25 @@ ion-icon:hover{
 
 /* ----- PRESENTATION ----- */
 
+
+
+
+.presentation-text,
 .presentation {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.presentation {
   margin: 4rem auto;
   width: 70%;
   height: 800px;
 }
 
 .presentation-text {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   width: 50%;
 }
 
@@ -155,8 +156,7 @@ ion-icon:hover{
   overflow: hidden;
   position: absolute;
   transition: 1s;
-
-  background-size: cover;
+  background-size: contain;
 }
 
 
@@ -177,33 +177,11 @@ ion-icon:hover{
     -webkit-text-fill-color: transparent;
 }
 
-.photo-a {
-  position: relative;
-  opacity: 1;
-  z-index: 1;
-  width: 100%;
-  transform: translateY(-16%);
-}
-
-.photo-b {
-  z-index: 2;
-  position: absolute;
-  left: 0;
-  opacity: 1;
-  width: 100%;
-  transition: 1s;
-}
-
-
-.animation:hover .photo-b {
-  opacity: 0;
-  transition: 1s;
-}
-
 .animation:hover {
   box-shadow: 10px 10px 60px black;
   transform: translateY(-2%);
 }
+
 
 
 
@@ -465,6 +443,9 @@ ion-icon:hover{
   font-size: 20px;
 }
 
+.soft-skills,
+.hard-skills,
+.school-info,
 .learn {
   display: flex;
   justify-content: center;
@@ -475,35 +456,14 @@ ion-icon:hover{
   padding: 15px;
 }
 
-.school-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-right: 1px rgba(255, 255, 255, 0.233) solid;
-  width: 30%;
-  padding: 15px;
-}
-
+.soft-skills,
 .hard-skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-right: 1px rgba(255, 255, 255, 0.233) solid;
   width: 20%;
-  padding: 15px;
   font-size: 18px;
 }
 
 .soft-skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 20%;
-  padding: 15px;
-  font-size: 18px;
+  border: none;
 }
 
 .hard-skills ul li {
@@ -734,31 +694,21 @@ ion-icon:hover{
   font-size: 18px;
 }
 
+.soft-skills,
+.hard-skills,
+.school-info,
 .learn {
   display: flex;
   width: 100%;
   border: none;
 }
-.school-info{
-  display: flex;
-  width: 100%;
-  border: none;
-}
-.hard-skills{
-  display: flex;
-  width: 100%;
-  border: none;
-}
+
 .soft-skills{
-  display: flex;
-  width: 100%;
-  border: none;
   margin-bottom: 4em;
 }
 
 .hard-skills ul {
   display: flex;
-  list-style: none;
 }
 
 .hard-skills ul li {
@@ -770,7 +720,6 @@ ion-icon:hover{
 
 .soft-skills ul {
   display: flex;
-  list-style: none;
 }
 
 .soft-skills ul li {
@@ -782,7 +731,6 @@ ion-icon:hover{
 
 .learn ul {
   display: flex;
-  list-style: none;
 }
 
 .learn ul li {
@@ -792,7 +740,6 @@ ion-icon:hover{
 }
 .school-info ul {
   display: flex;
-  list-style: none;
 }
 
 .school-info ul li {

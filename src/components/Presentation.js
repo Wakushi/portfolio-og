@@ -1,8 +1,4 @@
 import React from "react";
-import photoA from "../assets/diapo-a.png"
-import photoB from "../assets/diapo-b.png"
-import photoC from "../assets/diapo-c.png"
-
 
 export default function Presentation(){
 
