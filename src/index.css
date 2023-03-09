@@ -595,15 +595,16 @@ ion-icon:hover{
   font-family: Bogart;
   color: rgb(255, 255, 255);
   margin-top: 2em;
-  font-size: 50px;
+  font-size: 40px;
   width: 80%;
   text-align: center;
+  white-space: nowrap;
 }
 
 .wip-main h3 {
   text-align: center;
   margin-bottom: 1em;
-  font-size: 40px;
+  font-size: 30px;
   color: #949494d2;
 }
 
@@ -749,10 +750,10 @@ ion-icon:hover{
 }
 
 .wip-main h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 .wip-main h3 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
@@ -905,10 +906,10 @@ ion-icon:hover{
   }
 
   .wip-main h1 {
-    font-size: 35px;
+    font-size: 25px;
   }
   .wip-main h3 {
-    font-size: 25px;
+    font-size: 15px;
   }
   
 
