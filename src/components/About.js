@@ -50,10 +50,10 @@ export default function About() {
                     <div className="hard-skills">
                         <h4>Hard Skills</h4>
                         <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
+                            <li>HTML / CSS</li>
+                            <li>TypeScript</li>
                             <li>React</li>
+                            <li>Angular</li>
                             <li>Git / GitHub</li>
                         </ul>
                     </div>
