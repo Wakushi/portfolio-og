@@ -7,6 +7,7 @@ import weabove from "./assets/weabove.png"
 import floe from "./assets/floe.png"
 import colors from "./assets/colors.png"
 import trivia from "./assets/trivia.png"
+import todo from "./assets/todo.png"
 
 export default [
     {
@@ -16,6 +17,14 @@ export default [
         title:"$GRV Calculator",
         gitlink:"https://github.com/Wakushi/weabove-gravite-calculator",
         link:"https://weabove-gravite-calculator.vercel.app/"
+    },
+    {
+        img:todo,
+        desc:"A dashboard and to-do list management app. User can create, edit, delete or pin a task to his dashboard. This project was a personnal challenge to learn Angular.",
+        type:"Web App",
+        title:"Todo",
+        gitlink:"https://github.com/Wakushi/dashboard",
+        link:"https://dashboard-zeta-henna.vercel.app/"
     },
     {
         img:trivia,
