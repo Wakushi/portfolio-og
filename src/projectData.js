@@ -8,6 +8,7 @@ import floe from "./assets/floe.png"
 import colors from "./assets/colors.png"
 import trivia from "./assets/trivia.png"
 import todo from "./assets/todo.png"
+import currency from "./assets/currency-converter.png"
 
 export default [
     {
@@ -25,6 +26,14 @@ export default [
         title:"Todo",
         gitlink:"https://github.com/Wakushi/dashboard",
         link:"https://dashboard-zeta-henna.vercel.app/"
+    },
+    {
+        img:currency,
+        desc:"This is a simple currency converter made with Angular as part of my personnal training. It uses the Exchange Rates Data API",
+        type:"Web App",
+        title:"Currency Converter",
+        gitlink:"https://github.com/Wakushi/currency-converter-angular",
+        link:"none"
     },
     {
         img:trivia,
