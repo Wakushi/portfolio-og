@@ -9,6 +9,8 @@ import colors from "./assets/colors.png"
 import trivia from "./assets/trivia.png"
 import todo from "./assets/todo.png"
 import currency from "./assets/currency-converter.png"
+import blog from "./assets/english-blog.png"
+
 
 export default [
     {
@@ -18,6 +20,14 @@ export default [
         title:"$GRV Calculator",
         gitlink:"https://github.com/Wakushi/weabove-gravite-calculator",
         link:"https://weabove-gravite-calculator.vercel.app/"
+    },
+    {
+        img:blog,
+        desc:"A blog for an english teacher made using Angular and Firebase to store student projects and courses, and allow the teacher to login to add or remove data.",
+        type:"Web App",
+        title:"Teacher Blog",
+        gitlink:"none",
+        link:"https://ms-rambault-class.vercel.app/"
     },
     {
         img:todo,

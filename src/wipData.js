@@ -1,7 +1,6 @@
 import doors from "./assets/doors.png";
 import waDashboard from "./assets/wa-dashboard.png";
 import kanga from "./assets/kanga.png";
-import blog from "./assets/english-blog.png"
 
 export default [
   {
@@ -19,14 +18,6 @@ export default [
     title: "WeAbove Community",
     gitlink: "none",
     link: "none",
-  },
-  {
-    img:blog,
-    desc:"A blog for an english teacher made using Angular and Firebase to store student projects and courses, and allow the teacher to login to add or remove data.",
-    type:"Web App",
-    title:"Teacher Blog",
-    gitlink:"none",
-    link:"https://ms-rambault-class.vercel.app/"
   },
   {
     img: doors,
