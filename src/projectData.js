@@ -26,7 +26,7 @@ export default [
         desc:"A blog for an english teacher made using Angular and Firebase to store student projects and courses, and allow the teacher to login to add or remove data.",
         type:"Web App",
         title:"Teacher Blog",
-        gitlink:"none",
+        gitlink:"https://github.com/Wakushi/english-teacher-blog-angular",
         link:"https://ms-rambault-class.vercel.app/"
     },
     {
