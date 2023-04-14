@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div>
       <div className="about">
-        <div className="about__picture-container">
+        <div className="about__picture-container float">
           <img className="about__picture" src={makushiPro} width="100%"></img>
         </div>
 
