@@ -1,6 +1,6 @@
-import doors from "./assets/doors.png";
-import waDashboard from "./assets/wa-dashboard.png";
-import kanga from "./assets/kanga.png";
+import doors from "./assets/images/doors.png";
+import waDashboard from "./assets/images/wa-dashboard.png";
+import kanga from "./assets/images/kanga.png";
 
 export default [
   {
