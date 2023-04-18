@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
 
-export default function Header() {
+export default function Header({ toggleChatModal }) {
   return (
     <header className="flex--simple">
       <nav className="header__nav">
@@ -16,7 +16,7 @@ export default function Header() {
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="mailto:maxime.eliazord@gmail.com">Contact</a>
+            <button onClick={toggleChatModal}>Contact</button>
           </li>
         </ul>
       </nav>

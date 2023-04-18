@@ -4,6 +4,7 @@ import trivia from "./assets/images/trivia.png"
 import todo from "./assets/images/todo.png"
 import currency from "./assets/images/currency-converter.png"
 import blog from "./assets/images/english-blog.png"
+import fundme from "./assets/images/fundme.png"
 
 
 export default [
@@ -30,6 +31,14 @@ export default [
         title:"Todo",
         gitlink:"https://github.com/Wakushi/dashboard",
         link:"https://dashboard-zeta-henna.vercel.app/"
+    },
+    {
+        img:fundme,
+        desc:"Solidity Smart Contract made using Hardhat and Ethers. It's a crowd funding contract that registers donators' addresses and allows the deployer to withdraw the funds.",
+        type:"Smart Contract",
+        title:"Crowd Funding",
+        gitlink:"https://github.com/Wakushi/hardhat-fund-me-fcc",
+        link:"none"
     },
     {
         img:currency,
