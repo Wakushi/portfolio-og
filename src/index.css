@@ -172,10 +172,19 @@ header {
   gap: 0.7em;
 }
 
+.header__nav ul li button,
 .header__nav ul li a {
   font-size: 0.8rem;
   position: relative;
+}
+
+.header__nav ul li a {
   padding-bottom: 0.3em;
+}
+
+.header__nav ul li button {
+  padding-bottom: 0.15em;
+  padding-top: 0.1em;
 }
 
 .header__nav ul li ion-icon {
@@ -191,10 +200,8 @@ header {
 }
 
 .header__nav ul li button {
-  position: relative;
   border: transparent;
   background-color: transparent;
-  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -629,7 +636,6 @@ footer {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.342);
 }
 
-
 /* 
 ====================
   ANIMATION CLASSES
@@ -860,6 +866,11 @@ footer {
     font-size: 1.5rem;
   }
 
+  .header__nav ul li button {
+    padding-top: 0.15em;
+    font-size: 1rem;
+  }
+
   /* HERO */
 
   .hero {
@@ -1073,6 +1084,10 @@ footer {
 
   .hero__image-container:hover img {
     transform: scale(2.1) translateX(23%) translateY(-17%); /* Agrandir l'image de 20% lors du survol */
+  }
+
+  .header__nav ul li button {
+    padding-top: 0.2em;
   }
 
   /* PROJECTS */

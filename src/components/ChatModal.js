@@ -30,7 +30,7 @@ export default function ChatModal({ toggleChatModal }) {
         method: "POST",
       })
         .then(function () {
-          const sendBtn = document.getElementById("sendBtn")
+          const sendBtn = document.getElementById("sendBtn");
           sendBtn.classList.add("bounce-out-right");
           document.getElementById("form-content").style.opacity = "0";
           setTimeout(() => {
