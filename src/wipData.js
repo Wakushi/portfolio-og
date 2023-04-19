@@ -1,16 +1,9 @@
 import doors from "./assets/images/doors.png";
 import waDashboard from "./assets/images/wa-dashboard.png";
-import kanga from "./assets/images/kanga.png";
+import quizAngular from "./assets/images/quiz-angular.png";
 
 export default [
-  {
-    img: kanga,
-    desc: "Kanga is an image generative website based on AI, which goal is to make text-to-image more user-friendly with different features.",
-    type: "Web App",
-    title: "Kanga",
-    gitlink: "none",
-    link: "none",
-  },
+ 
   {
     img: waDashboard,
     desc: "WeAbove Community acts as a dashboard for WeAbove holders to check and optimize their rewards on multiple wallets.",
@@ -18,6 +11,14 @@ export default [
     title: "WeAbove Community",
     gitlink: "none",
     link: "none",
+  },
+  {
+    img: quizAngular,
+    desc: "QuizMaster is a dynamic and interactive quiz application built using Angular and Firebase.",
+    type: "Web Game",
+    title: "Quiz Master",
+    gitlink: "https://github.com/Wakushi/quiz-app-angular",
+    link: "https://quiz-app-angular-ruddy.vercel.app/",
   },
   {
     img: doors,
