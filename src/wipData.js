@@ -18,7 +18,7 @@ export default [
     type: "Web Game",
     title: "Quiz Master",
     gitlink: "https://github.com/Wakushi/quiz-app-angular",
-    link: "https://quiz-app-angular-ruddy.vercel.app/",
+    link: "https://quiz-master-angular.vercel.app/",
   },
   {
     img: doors,
