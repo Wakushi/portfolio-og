@@ -5,6 +5,7 @@ import fundme from "./assets/images/fundme.png"
 import kanga from "./assets/images/kanga.png"
 import paths from "./assets/images/paths.png"
 import quizAngular from "./assets/images/quiz-angular.png"
+import helixVault from "./assets/images/helix-vault.png"
 
 export default [
 	{
@@ -30,6 +31,14 @@ export default [
 		title: "Kanga",
 		gitlink: "none",
 		link: "none"
+	},
+	{
+		img: helixVault,
+		desc: "Helix Vault is a web app that allows anyone to get information about any Helix holder's staked items, without the need for wallet connection.",
+		type: "Web3 App",
+		title: "Helix Vault",
+		gitlink: "https://github.com/Wakushi/helix-vaults",
+		link: "https://helix-vaults.vercel.app/"
 	},
 	{
 		img: weabove,

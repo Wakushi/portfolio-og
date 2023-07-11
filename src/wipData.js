@@ -1,12 +1,12 @@
-import waDashboard from "./assets/images/wa-dashboard.png"
+import carRental from "./assets/images/car-rental.png"
 
 export default [
 	{
-		img: waDashboard,
-		desc: "WeAbove Community acts as a dashboard for WeAbove holders to check and optimize their rewards on multiple wallets.",
-		type: "Web3 App",
-		title: "WeAbove Community",
-		gitlink: "none",
+		img: carRental,
+		desc: "Car rental is a website that allows users to rent car, and it acts as an interface to search, compare and reserve cars",
+		type: "Web service",
+		title: "Car rental",
+		gitlink: "https://github.com/Wakushi/car-rental",
 		link: "none"
 	},
 ]
