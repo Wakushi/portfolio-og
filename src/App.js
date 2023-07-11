@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from '@vercel/analytics/react';
 
 // COMPONENTS
 
@@ -154,6 +155,7 @@ export default function App() {
       </div>
       {displayChat && <ChatModal toggleChatModal={toggleChatModal} />}
       <Footer quote={quote.content} />
+      <Analytics />
     </div>
   );
 }
