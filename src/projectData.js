@@ -18,10 +18,10 @@ export default [
 	},
 	{
 		img: fundme,
-		desc: "Solidity Smart Contract made using Hardhat and Ethers. It's a crowd funding contract that registers donators' addresses and allows the deployer to withdraw the funds.",
+		desc: "Solidity Smart Contract made using Foundry. It's a crowd funding contract that registers donators' addresses and allows the deployer to withdraw the funds.",
 		type: "Smart Contract",
 		title: "Crowd Funding",
-		gitlink: "https://github.com/Wakushi/hardhat-fund-me-fcc",
+		gitlink: "https://github.com/Wakushi/foundry-fund-me-f23",
 		link: "none"
 	},
 	{
