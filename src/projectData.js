@@ -6,6 +6,7 @@ import kanga from "./assets/images/kanga.png"
 import paths from "./assets/images/paths.png"
 import quizAngular from "./assets/images/quiz-angular.png"
 import helixVault from "./assets/images/helix-vault.png"
+import smartLottery from "./assets/images/lottery.png"
 
 export default [
 	{
@@ -30,6 +31,14 @@ export default [
 		type: "Web App",
 		title: "Kanga",
 		gitlink: "none",
+		link: "none"
+	},
+	{
+		img: smartLottery,
+		desc: "Solidity Lottery Smart Contract made using Foundry and Chainlink. This contracts allows anyone to buy a ticket to enter the lottery and a random winner selected every X minutes will win the pot. All this process is automated using the Chainlink VRF and Chainlink Automation.",
+		type: "Smart Contract",
+		title: "Smart lottery",
+		gitlink: "https://github.com/Wakushi/foundry-smart-contract-lottery",
 		link: "none"
 	},
 	{
