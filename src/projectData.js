@@ -7,8 +7,17 @@ import paths from "./assets/images/paths.png"
 import quizAngular from "./assets/images/quiz-angular.png"
 import helixVault from "./assets/images/helix-vault.png"
 import smartLottery from "./assets/images/lottery.png"
+import multisig from "./assets/images/multisig.webp"
 
 export default [
+	{
+		img: multisig,
+		desc: "MultiSig Factory is a web app that allows anyone to create and manage a MultiSig wallet. Users can easily create, confirm and execute transactions from their multi-signature wallet. (Sepolia testnet only)",
+		type: "dApp",
+		title: "MultiSig Factory",
+		gitlink: "https://github.com/Wakushi/multisig-wallet-factory",
+		link: "https://multisig-wallet-factory.vercel.app/"
+	},
 	{
 		img: paths,
 		desc: "Paths is a Reigns-like game. You're a time and space traveler, captain of your own ship. All of your decisions will impact the fate of your crew and your journey through the universe.",
@@ -16,14 +25,6 @@ export default [
 		title: "Paths",
 		gitlink: "https://github.com/Wakushi/paths",
 		link: "https://paths-one.vercel.app/"
-	},
-	{
-		img: fundme,
-		desc: "Solidity Smart Contract made using Foundry. It's a crowd funding contract that registers donators' addresses and allows the deployer to withdraw the funds.",
-		type: "Smart Contract",
-		title: "Crowd Funding",
-		gitlink: "https://github.com/Wakushi/foundry-fund-me-f23",
-		link: "none"
 	},
 	{
 		img: kanga,
@@ -34,6 +35,14 @@ export default [
 		link: "none"
 	},
 	{
+		img: helixVault,
+		desc: "Helix Vault is a web app that allows anyone to get information about any Helix holder's staked items, without the need for wallet connection.",
+		type: "Web3 App",
+		title: "Helix Vault",
+		gitlink: "https://github.com/Wakushi/helix-vaults",
+		link: "https://helix-vaults.vercel.app/"
+	},
+	{
 		img: smartLottery,
 		desc: "Solidity Lottery Smart Contract made using Foundry and Chainlink. This contracts allows anyone to buy a ticket to enter the lottery and a random winner selected every X minutes will win the pot. All this process is automated using the Chainlink VRF and Chainlink Automation.",
 		type: "Smart Contract",
@@ -42,12 +51,12 @@ export default [
 		link: "none"
 	},
 	{
-		img: helixVault,
-		desc: "Helix Vault is a web app that allows anyone to get information about any Helix holder's staked items, without the need for wallet connection.",
-		type: "Web3 App",
-		title: "Helix Vault",
-		gitlink: "https://github.com/Wakushi/helix-vaults",
-		link: "https://helix-vaults.vercel.app/"
+		img: fundme,
+		desc: "Solidity Smart Contract made using Foundry. It's a crowd funding contract that registers donators' addresses and allows the deployer to withdraw the funds.",
+		type: "Smart Contract",
+		title: "Crowd Funding",
+		gitlink: "https://github.com/Wakushi/foundry-fund-me-f23",
+		link: "none"
 	},
 	{
 		img: weabove,
@@ -64,21 +73,5 @@ export default [
 		title: "Teacher Blog",
 		gitlink: "https://github.com/Wakushi/english-teacher-blog-angular",
 		link: "https://ms-rambault-class.vercel.app/"
-	},
-	{
-		img: quizAngular,
-		desc: "QuizMaster is a dynamic and interactive quiz application built using Angular and Firebase.",
-		type: "Web Game",
-		title: "Quiz Master",
-		gitlink: "https://github.com/Wakushi/quiz-app-angular",
-		link: "https://quiz-master-angular.vercel.app/"
-	},
-	{
-		img: todo,
-		desc: "A dashboard and to-do list management app. User can create, edit, delete or pin a task to his dashboard. This project was a personnal challenge to learn Angular.",
-		type: "Web App",
-		title: "Todo",
-		gitlink: "https://github.com/Wakushi/dashboard",
-		link: "https://dashboard-zeta-henna.vercel.app/"
 	}
 ]

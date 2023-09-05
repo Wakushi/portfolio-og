@@ -476,7 +476,7 @@ header {
 /* HOBBIES */
 
 .about__hobbies {
-  margin: 1 auto;
+  margin: 1rem auto;
   padding: 3em 2em;
   max-width: 1200px;
 }
@@ -922,7 +922,7 @@ footer {
 
   .project-card__desc {
     width: 60%;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   /* CARD HOVER / FOCUS EFFECTS */
